@@ -1,6 +1,8 @@
 const request = require('supertest');
 const mysql = require('mysql');
+example.disable("x-powered-by");
 require('dotenv').config();
+
 
 const connection = require('../middleware/db_connect');
 const app = require('../app'); // Replace with the path to your application file
