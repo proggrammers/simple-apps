@@ -1,6 +1,6 @@
 const request = require('supertest');
 const mysql = require('mysql');
-example.disable("x-powered-by");
+// example.disable("x-powered-by");
 
 require('dotenv').config();
 
