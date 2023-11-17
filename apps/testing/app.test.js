@@ -45,3 +45,5 @@ describe('Integration Test Connect Database', () => {
     expect(response.status).toBe(200);
   });
 });
+
+app.close();
