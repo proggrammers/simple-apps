@@ -46,4 +46,3 @@ describe('Integration Test Connect Database', () => {
   });
 });
 
-app.close();
